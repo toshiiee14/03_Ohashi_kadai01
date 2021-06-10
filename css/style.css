@@ -1,0 +1,649 @@
+
+@charset"utf-8"; 
+
+/* 全体幅の規定 */
+#site-box{  
+    width: 1200px;
+    height: auto;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+br  {   
+    display: block;
+    content: "";
+    margin: 10px;
+}
+
+/* Header */
+.wrap {
+    display: flex;
+    justify-content: space-between ;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.imageheader{   
+    width: 30%;
+    height: max-content;
+}
+
+.header{
+    display: flex;
+    font-size: 21px;color: #222222;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+}
+
+.menu{
+    padding-left: 25px;
+    justify-content: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #222222;
+    padding-right: 10px;
+}
+
+.menu:hover {   
+    opacity: 0.5;
+    color: #222;
+}
+
+
+/* div mainvisual */
+.mainvisual{
+    background-image: url(../img/mainbg.png);
+    width: 1200px;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    object-fit: cover;
+    align-items: center;
+}
+
+.mainvisual-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    line-height: 100px;
+}
+
+.mainvisual-sub {
+    font-size: 24px;
+    color: white;
+}
+
+/* ABOUT */
+
+.about{
+    text-align: center;
+}
+.aboutheader{   
+    font-size: 24px;
+    color: #ffd61a;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.cheeseacademy{ 
+    padding-bottom: 60px;
+}
+.csexplanation1{    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.csexplanation2 {   
+    padding-bottom: 80px;
+}
+
+/* 4枚の写真 */
+.fourphotos{ 
+    width: 1200px;
+    height: auto;
+    display: flex;  
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.pizza {    
+    width: calc(100%/4);
+    height: auto;
+}
+.shokunin{  
+    width: calc(100%/4);
+    height: auto;
+}
+.field {    
+    width: calc(100%/4);
+    height: auto;
+}
+.deli { 
+    width: calc(100%/4);
+    height: auto;
+}
+
+/* course部分 */
+.coursecontainer    {   
+   padding-top: 60px;
+}
+
+.menucourse {   
+    font-size: 24px; 
+    color:#222222 ;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.coursetext {   
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+    /* training card */
+     .trainingcontainer { 
+            background-color: #fafafa;
+            width: 1200px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+     
+       .trainingimage {    
+          width: 50%;
+          height: 100%;
+          background-image: url(../img/course_01.jpg);
+      }
+      
+     .trainingimage img {   
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+
+     }
+
+      .trainingtext {   
+          width: 430px;
+          height: auto;
+          padding-top: 120px;
+          padding-bottom: 120px;
+          padding-left: 50px;
+          padding-right: 120px;
+      }
+      .trainingtitle {  
+        font-size: 18px;
+        color: #222222;
+        margin-bottom: 40px;
+        font-weight: bold;
+       }
+      .trainingcontent {    
+        font-size: 16px;color: #222222;
+    }
+    /* knowledge */
+       .knowledgecontainer  {   
+        background-color: #fafafa;
+        width: 1200px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+       }
+   
+        .knowledgetext {   
+        width: 430px;
+        height: auto;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-left: 120px;
+        padding-right: 50px;
+    }
+
+         .knowledgetitle {  
+        font-size: 18px;
+        color: #222222;
+        margin-bottom: 40px;
+        font-weight: bold;
+         }
+
+        .knowledgecontent { 
+            font-size: 16px;color: #222222;
+        } 
+
+         .knowledgeimage {       
+        width: 600px;
+        height: 100%;
+        background-image: url(../img/course_02.jpg);
+            }
+        .knowledgeimage  img {   
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+         }
+         
+    /* graduation */
+        .graduationcontainer  {   
+            background-color: #fafafa;
+            width: 1200px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+           }
+       
+            .graduationtext {   
+            width: 431px;
+            height: auto;
+            padding-top: 120px;
+            padding-bottom: 120px;
+            padding-left: 50px;
+            padding-right: 120px;
+        }
+    
+             .graduationtitle {  
+            font-size: 18px;
+            color: #222222;
+            margin-bottom: 40px;
+            font-weight: bold;
+             }
+    
+            .graduationcontent { 
+                font-size: 16px;color: #222222;
+            } 
+    
+             .graduationimage {       
+            width: 600px;
+            height: 100%;
+            background-image: url(../img/course_03.jpg);
+                }
+            .knowledgeimage  img {   
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+             }
+    
+/* NEWS */
+.news { 
+    font-size: 24px;color: #ffd61a;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.newsjapanese {
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.newscontainer {    
+    width: 300px;
+    height: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newscontainer:hover {  
+    opacity: 0.5;
+    color: white;
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+.newsimage img  {   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.newsimage {    
+    width: auto;
+    height: 200px;
+    background-image: url(../img/news_img.jpg);
+}
+.newscontent    {   
+    width: 300px;
+    height: auto;
+    font-size: 14px;color: #222222;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.newscontenturl {   
+    text-decoration: none;
+}
+
+.newsdate  {    
+    padding-bottom: 24px;
+}
+.newsbigcontainer   {   
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center ;
+    padding-top: 15px;
+}
+
+/* more */
+.more { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.moretext:hover {   
+    opacity: 0.5;
+    color: white;
+}
+
+.moretext { 
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* Access */
+.accesstitlecontainer    {   
+    background-color: #fafafa;
+    width: 1200px;
+    height: auto;
+    display:block;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.accesstitle {  
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 24px; 
+    color:#222222 ;
+    margin: auto;
+}
+
+.accesssubtitle {   
+    padding-bottom: 60px;
+    font-size: 16px;
+    color: #222222;
+    margin: auto;
+}
+
+.accesscontentscontainer {  
+    background-color: #fafafa;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    line-height: 65px;
+}
+
+.accesscontents {  
+    width: 200px;
+    height: auto;
+    font-size: 16px;
+    color: #222222;
+    text-align:left;
+    padding-left: 300px;
+ }
+.accesscontents2 {  
+    width: 600px;
+    height: 100%;
+    font-size: 16px;
+    color: #222222;
+    text-align:left;
+ }
+
+
+ /* contact */
+.contacttitle { 
+    font-size: 18px;
+    color: #222222;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.contact1 { 
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contact2 { 
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact3 { 
+    font-size: 16px;
+    color: #222222;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+    /* お問い合わせフォーム */
+    .formcontainer  {   
+        width: 640px;
+        height: 100%;
+        margin: auto;
+        justify-content: space-between;        
+    }
+
+    .form-inner {   
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 52px;
+        border-top: solid 2px #bfbfbf;
+        width: 640px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .formtext { 
+        width: 240px;   
+        border-right: 64px;
+        border-left: 16px;
+        font-size: 16px;
+        color: #222222;
+        padding: 4px 0 0 0;
+        border-bottom: solid 1px #bfbfbf;
+    }
+
+    .formtext.check-select {   
+        line-height: 8px;
+        padding-top: auto;
+        flex-wrap: wrap;
+        padding-bottom: auto;
+        text-align: left;
+        align-items: center;
+    }
+
+
+    .formitem   {   
+        width: 391px;
+        font-size: 16px;
+        color: #222222;
+        padding-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-bottom: solid 1px #bfbfbf;
+        border-left: solid 1px #bfbfbf;
+    }
+   /* チーズアカデミーを知ったきっかけ (修正必要) */
+    .formtext.check-select {    
+        display: flex;
+        text-align: left;
+        line-height: 14px;
+    }
+
+    .cheesecheck {  
+        margin: 2px;
+    }
+
+    .labelselect    {   
+        margin: 24px;
+    }
+
+    .radioinput {   
+        width: 328px;
+        height: auto;
+        appearance: none; 
+        position: absolute;
+    }
+
+    ::before {  
+        box-sizing: border-box;
+    }
+
+    ::after{    
+        box-sizing: border-box;
+    }
+
+    .radio-text {   
+        font-size: 14px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .radio-text::before {   
+        content: "";
+        display: block;
+        border-radius: 0%;
+        border: 1px solid #cacaca;
+        background-color: #fafafa;
+        width: 16px;
+        height: 16px;
+        margin-right: 12px;
+        /* margin-right: 16px; */
+    }
+
+    /* 下のcheckedのようにつなげる */
+    /* .radio-text::after {    
+        content: "";
+        position: absolute;
+        left: 3px;
+        display: block;
+        border-radius: 0%;
+        width: 10px;
+        height: 10px;
+        background-color: orange;
+    } */
+
+    .radioinput:checked+.radio-text::after {
+        content: "";
+        position: absolute;
+        left: calc(8px - 5px);
+        display: block;
+        border-radius: 0%;
+        width: 10px;
+        height: 10px;
+        background-color: #cacaca;
+    }
+
+    .form-parts {   
+        box-sizing: border-box;
+        width: 328px;
+        padding: 8px;
+        font-size: 16px;
+        border: solid 1px #cacaca;
+        /* height: 20px;
+        width: 328px; */
+    }
+
+    .form-parts.detail {    
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+    /* 送信ボタン */
+.send { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.sendtext   {   
+    width: 300px;
+    height: 60px;
+    display       : inline-block;
+    font-size     : 18pt;     
+    text-align    : center;    
+    cursor        : pointer;    
+    background    : #ffd61a;    
+    color         : #ffffff;   
+    transition    : .3s;       
+    border        : 2px solid #ffd61a; 
+  }
+
+.sendtext:hover { 
+    opacity: 0.5;
+    color: white;
+}
+
+
+#pagetop {
+    text-decoration: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    background: #ffd61a;
+    color: white;
+    padding: 10px;
+    border: solid #ffd61a 1px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+/* コピーライト */
+.copyrights {   
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: #707070;
+    width: 1200px;
+    height: 76px;
+}
+.copyrightstext {   
+    color: white;
+    font-size: 16px;
+    line-height: 76px;
+}
